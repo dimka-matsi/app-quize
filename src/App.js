@@ -6,7 +6,11 @@ class App extends Component {
   render() {
 
     return (
-      <Layout></Layout>
+      <Layout>
+        <div style={{border: '1px solid #ccc', width: '500px'}}>
+          <h1>Hello World</h1>
+        </div>
+      </Layout>
      );
   }
 }
